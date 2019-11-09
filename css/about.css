@@ -28,6 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+#wrapper{
+    width: 700px;
+    margin: 0 auto;
+}    
 body {
 	line-height: 1;
 }
@@ -66,6 +70,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
     font-weight: 600;
+    margin: 15px;
 }
 
 .container {
@@ -253,13 +258,40 @@ nav{
     width:775px;
     font-size:14px;
 }
-#wrapper{
-    width: 700px;
-	margin: 0 auto;
-}
 .headerimg{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
 }
+.firstpair{
+    display:flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	letter-spacing: 1px;
+}
+.button{
+	width:150px;
+	background-color: snow;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+	color: black;
+	padding: 12px 28px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+    margin:10px 0px;
+}
+.classes div{
+	width: 48%;
+	background:#EEE;
+	padding: 10px;
+    border:2px black solid;
+}
+.firstpair img{
+    float:above;
+}
+  
